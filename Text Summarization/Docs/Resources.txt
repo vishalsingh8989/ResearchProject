@@ -1,0 +1,41 @@
+**************************************************************************************************************************
+**************************************************************************************************************************
+Topic   : Text Summarization Introduction.
+Source  : https://machinelearningmastery.com/gentle-introduction-text-summarization/
+Date    : July 16, 2018
+Copy    : On Web
+
+==========================================================================================================================
+Extractive text summarization
+Extractive text summarization involves the selection of phrases and sentences from the source document to make up the 
+new summary. Techniques involve ranking the relevance of phrases in order to choose only those most relevant to the 
+meaning of the source.
+==========================================================================================================================
+
+==========================================================================================================================
+Abstractive text summarization
+Abstractive text summarization involves generating entirely new phrases and sentences to capture the meaning of the 
+source document. This is a more challenging approach, but is also the approach ultimately used by humans. Classical 
+methods operate by selecting and compressing content from the source document.
+==========================================================================================================================
+
+==========================================================================================================================
+Deep learning
+The results of deep learning methods are not yet state-of-the-art compared to extractive methods, yet impressive 
+results have been achieved on constrained problems such as generating headlines for news articles that rival or 
+out-perform other abstractive methods.The promise of the approach is that the models can be trained end-to-end without 
+specialized data preparation or submodels and that the models are entirely data-driven, without the preparation of 
+specialized vocabulary or expertly pre-processed source documents.
+==========================================================================================================================
+
+**************************************************************************************************************************
+**************************************************************************************************************************
+Topic  : A Review on Automatic Text Summarization Approaches. 
+Source : http://thescipub.com/PDF/jcssp.2016.178.190.pdf
+Date   : July 16, 2018
+Copy   : A_Review_on_Automatic_Text_Summarization_Approaches.pdf
+
+**************************************************************************************************************************
+**************************************************************************************************************************
+
+ 
