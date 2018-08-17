@@ -90,7 +90,28 @@ Basic approach:
 **************************************************************************************************************************
 **************************************************************************************************************************
 
+Topic    : ROGUE technique to evaluate summarization.
+Source   : http://www.aclweb.org/anthology/W04-1013
+Date     : Aug 17, 2018
+Copy     :
 
+Basic approach:
+
+Bleu :  How much the words in the machine generated summaries appear in the human generated summaries ?.
+Rogue :  How much the words in human genrated summaries appear in the machine generated summaries ?.  
+
+
+Try:  combination of both if poosible. Rogue-N and Bleu.
+
+Rogue-L is Longest common subsequence between machine generated summaries and human generated summaries pair wise.
+Rogue-L is 1 when X ==  Y. x =  machine generated summaries and Y is human generated summaries.
+Rogue-L is 0 when nothing in common.
+
+Rogue-N is n-gram pair wise comparison on human generatd summaries and machine generated summaries.
+Rogue-S 
+
+1) cosine similarity, unit overlap (i.e. unigram or bigram), and longest common subsequence.
+ 
 
 
  
